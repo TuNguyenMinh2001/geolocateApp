@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/layout-land/activity_handle.xml" value="0.20989583333333334" />
+        <entry key="app/src/main/res/layout-land/activity_handler.xml" value="0.20989583333333334" />
+        <entry key="app/src/main/res/layout-land/activity_launch.xml" value="0.20989583333333334" />
+        <entry key="app/src/main/res/layout-land/activity_main.xml" value="0.20989583333333334" />
+        <entry key="app/src/main/res/layout-land/fragment_geolocate.xml" value="0.2940917107583774" />
+        <entry key="app/src/main/res/layout-land/fragment_geolocate_result.xml" value="0.2940917107583774" />
+        <entry key="app/src/main/res/layout-land/fragment_start_server.xml" value="0.20989583333333334" />
+        <entry key="app/src/main/res/layout-sw600dp/activity_geolocate.xml" value="0.1275822494261668" />
+        <entry key="app/src/main/res/layout-sw600dp/activity_handle.xml" value="0.1275822494261668" />
+        <entry key="app/src/main/res/layout-sw600dp/activity_launch.xml" value="0.22575136612021857" />
+        <entry key="app/src/main/res/layout-sw600dp/activity_main.xml" value="0.1275822494261668" />
+        <entry key="app/src/main/res/layout-sw600dp/fragment_start_server.xml" value="0.22575136612021857" />
+        <entry key="app/src/main/res/layout/activity_geo_result.xml" value="0.16894630192502533" />
+        <entry key="app/src/main/res/layout/activity_geolocate.xml" value="0.16894630192502533" />
+        <entry key="app/src/main/res/layout/activity_handle.xml" value="0.16894630192502533" />
+        <entry key="app/src/main/res/layout/activity_handler.xml" value="0.16894630192502533" />
+        <entry key="app/src/main/res/layout/activity_launch.xml" value="0.16894630192502533" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.16894630192502533" />
+        <entry key="app/src/main/res/layout/fragment_geolocate.xml" value="0.16894630192502533" />
+        <entry key="app/src/main/res/layout/fragment_geolocate_result.xml" value="0.182518115942029" />
+        <entry key="app/src/main/res/layout/fragment_start.xml" value="0.16894630192502533" />
+        <entry key="app/src/main/res/layout/fragment_start_server.xml" value="0.16894630192502533" />
+        <entry key="app/src/main/res/layout/fragment_tablet.xml" value="0.182518115942029" />
+        <entry key="app/src/main/res/layout/fragment_test_oobee_sdk.xml" value="0.16894630192502533" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

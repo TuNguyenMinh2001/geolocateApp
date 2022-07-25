@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: ./app/libs/GeoComplyLibrary.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/d518816a2f2b330b2803440b6df4fa9f/transformed/GeoComplyLibrary/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d518816a2f2b330b2803440b6df4fa9f/transformed/GeoComplyLibrary/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d518816a2f2b330b2803440b6df4fa9f/transformed/GeoComplyLibrary/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

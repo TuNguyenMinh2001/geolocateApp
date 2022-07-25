@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">GeolocateApp</string>
+    <string name="oobee_host_package_name">com.example.geolocateapp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="geolocate">GEOLOCATE</string>
+    <string name="start_server">INITIALIZE</string>
+    <string name="stop_server">STOP</string>
+    <string name="port_label">Port</string>
+    <string name="license_label">License</string>
+    <string name="license_hint">Input license string</string>
+    <string name="port_hint">Input Port number</string>
+    <string name="default_port">48868</string>
+    <string name="text_ask_permission_android_12">To continue playing, you need to share your current location with us. \nPlease allow the <b>Location Permission all the time &amp; turn on Precise Location</b> for our application from the Settings.</string>
+    <string name="text_ask_permission_android_10">To continue playing, you need to share your current location with us. \nPlease allow the <b>Location Permission all the time</b> for our application from the Settings.</string>
+    <string name="text_ask_permission">To continue playing, you need to share your current location with us. \nPlease allow the <b>Location Permission</b> for our application from the Settings.</string>
+
+    <string name="request_permission_setting">- Tap <b>Permissions</b>\n- Then switch <b>Location</b> on</string>
+    <string name="request_permission_setting_android_s">- Tap <b>Permissions</b>\n- Then tap <b>Location</b>\n- Choose <b>Allow all the time</b>\n- Turn on <b>Precise Location</b></string>
+    <string name="request_permission_setting_android_q">- Tap <b>Permissions</b>\n- Then tap <b>Location</b>\n- Choose <b>Allow all the time</b></string>
+
+    <string name="settings">Settings</string>
+    <string name="text_cancel">Cancel</string>
+</resources>

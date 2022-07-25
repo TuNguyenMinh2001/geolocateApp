@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="QAT580">https://qat-580-auth.geocomply.net/license?akey=geotech&amp;skey=6544e66145dd4567c70e68df25be7c5e</string>
+        <string name="QAT590">https://qat-590-auth.geocomply.net/license?akey=geotech&amp;skey=6544e66145dd4567c70e68df25be7c5e</string>
+        <string name="UATUS5">https://uat-us5-auth.geocomply.net/license.php?akey=testOobeeUAT&amp;skey=4c6beb7e0221489527a0367f3109af13</string>
+        <string name="US3STG">https://us3-stg-auth.geocomply.net/license.php?akey=OobeeTestingStg&amp;skey=3d87d91d5d00219aeabcaedcc8d6b8f5</string>
+        <string name="US5STG">https://us5-stg-auth.geocomply.net/license.php?akey=VNQAteam&amp;skey=ca4bfa25b337d7da47b165cb206387b8</string>
+        <string name="US6STG">https://us6-stg-auth.geocomply.net/license?akey=SonQATestUS6&amp;skey=b11c39bc14ef618a17642140d91cdafd</string>
+        <string name="US7STG">https://us7-stg-auth.geocomply.net/license?akey=QAVNteamUS7stg&amp;skey=aa4c2800df8666508316ff348c6fd1f8</string>
+        <string name="NJSTG">https://stg-auth.geocomply.net/license.php?akey=geotech&amp;skey=532308be5b009ec5d7cc01a4e6bf30ec</string>
+        <string name="NvSTG">https://nv-stg-auth.geocomply.net/license.php?akey=geotech&amp;skey=091d68644a780b3f272b3c03a0fa9fb6</string>
+        <string name="NjPROD">https://auth.geocomply.com/license.php?akey=testoperator&amp;skey=30cd701c1fda5e7e4538d1cc8eeda234</string>
+        <string name="NvPROD">https://nv-auth.geocomply.com/license.php?akey=geotech&amp;skey=ff842b958f5647efa519f34e50f86d3d</string>
+        <string name="US3PROD">https://us3-auth.geocomply.com/license.php?akey=testoperator&amp;skey=a9b3adc6dd9716c19d03d1043da2d5d7</string>
+        <string name="US5PROD">https://us5-auth.geocomply.com/license.php?akey=VNteamQA&amp;skey=60ea9b29b308ccc596cc2c9452cb59c7</string>
+        <string name="US6PROD">https://us6-auth.geocomply.com/license?akey=QAVNteamUS6prod&amp;skey=ed7b0fb6a0238d09566bdfbeedca02dd</string>
+        <string name="US7PROD">https://us7-auth.geocomply.com/license.php?akey=QAVNteamUS7&amp;skey=8ac19abf439fc4311c9f4cb3b0caf1ac</string>
+        <string name="US9PROD">https://us9-auth.geocomply.com/license?akey=QAVNTeam&amp;skey=4af992ddb848897a707cd53e0bee23f9</string>
+        <string name="US10PROD">https://us10-auth.geocomply.com/license.php?akey=QAVNTeam&amp;skey=31b1989ff4a55b8710b3e73c2497e11c</string>
+        <string name="CA1PROD">https://ca1-auth.geocomply.com/license.php?akey=QAVNTeam&amp;skey=ad48e0f03204f4be0e1859fb01fa9969</string>
+</resources>

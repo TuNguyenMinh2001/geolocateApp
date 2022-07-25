@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.TestOobeeSDKFragment"
+    android:id="@+id/TestOobeeSDKfragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Spinner
+            android:id="@+id/Spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Spinner
+            android:id="@+id/SpinnerTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Spinner"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp"
+            android:minHeight="50dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <Button
+            android:id="@+id/GenerateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/SpinnerTwo"
+            android:layout_centerHorizontal="true"
+            android:text="Generate License"
+            android:background="@drawable/generate_border"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+</FrameLayout>

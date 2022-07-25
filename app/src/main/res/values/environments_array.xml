@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="TypeEnv">
+        <item>QAT</item>
+        <item>STAGING</item>
+        <item>PRODUCT</item>
+    </string-array>
+    <string-array name="QAT">
+        <item>QAT-580</item>
+        <item>QAT-590</item>
+        <item>UAT-US5</item>
+    </string-array>
+    <string-array name="STAGING">
+        <item>US3-STG</item>
+        <item>US5-STG</item>
+        <item>US6-STG</item>
+        <item>US7-STG</item>
+        <item>NJ-STG</item>
+        <item>Nv-STG</item>
+    </string-array>
+    <string-array name="PRODUCT">
+        <item>Nj-PROD</item>
+        <item>Nv-PROD</item>
+        <item>US3-PROD</item>
+        <item>US5-PROD</item>
+        <item>US6-PROD</item>
+        <item>US7-PROD</item>
+        <item>US9-PROD</item>
+        <item>US10-PROD</item>
+        <item>CA1-PROD</item>
+    </string-array>
+</resources>

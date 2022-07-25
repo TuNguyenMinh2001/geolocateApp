@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.StartServerFragment"
+    android:id="@+id/StartServerFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Port"
+            android:textSize="30dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textView"
+            />
+
+        <EditText
+            android:id="@+id/edtPort"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView"
+            android:inputType="number"
+            android:textSize="30dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/StartButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edtPort"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/border"
+            android:text="Start"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+    </RelativeLayout>
+
+</FrameLayout>
