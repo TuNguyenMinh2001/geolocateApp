@@ -1,6 +1,7 @@
 package com.example.geolocateapp.Activity;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.Manifest;
@@ -17,6 +18,7 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.PersistableBundle;
 import android.provider.Settings;
 import android.util.Log;
 import android.widget.Button;
@@ -106,7 +108,7 @@ public class MainActivity extends AppCompatActivity implements OnDataPass {
         super.onCreate(savedInstanceState);
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-
+        mOobeeClient=new OobeeClient(this);
         if(isTablet(this))
         {
             getSupportFragmentManager().beginTransaction()
@@ -371,4 +373,15 @@ public class MainActivity extends AppCompatActivity implements OnDataPass {
     }
 
     //----------------------------------------------------------------------------------------------
+
+
+    @Override
+    public void onRestoreInstanceState(@Nullable Bundle savedInstanceState, @Nullable PersistableBundle persistentState) {
+        super.onRestoreInstanceState(savedInstanceState, persistentState);
+    }
+
+    @Override
+    protected void onSaveInstanceState(@NonNull Bundle outState) {
+        super.onSaveInstanceState(outState);
+    }
 }

@@ -65,7 +65,7 @@ public class GeolocateFragment extends Fragment implements View.OnClickListener 
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         binding=FragmentGeolocateBinding.inflate(inflater, container, false);
@@ -81,8 +81,8 @@ public class GeolocateFragment extends Fragment implements View.OnClickListener 
 
     @Override
     public void onClick(View v) {
-        if(binding.UserId.getText().equals("")||binding.PhoneNumber.getText().equals("")||
-        binding.GeolocationReason.getText().equals("")||binding.SessionKey.getText().equals(""))
+        if(binding.UserId.getText().toString().equals("")||binding.PhoneNumber.getText().toString().equals("")||
+        binding.GeolocationReason.getText().toString().equals("")||binding.SessionKey.getText().toString().equals(""))
         {
             Toast.makeText(getContext(),"Please fill all the blanks!",Toast.LENGTH_SHORT).show();
         }

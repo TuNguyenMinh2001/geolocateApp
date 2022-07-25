@@ -104,8 +104,6 @@ public class StartServerFragment extends Fragment implements View.OnClickListene
             binding.StartButton.setBackgroundResource(R.drawable.stop_border);
             mIsServerStarted=true;
         }
-        //Create OobeeClient object
-        MainActivity.mOobeeClient = new OobeeClient(getContext());
 
         //registerOobeeCallback for start OobeeServer. You need start server to listen request from OobeeJS
         MainActivity.mOobeeClient.registerOobeeCallback(new IOobeeCallback() {
@@ -176,7 +174,7 @@ public class StartServerFragment extends Fragment implements View.OnClickListene
         if (MainActivity.mOobeeClient != null) {
             try {
                 int port = Integer.parseInt(binding.edtPort.getText().toString());
-                MainActivity.mOobeeClient.setHttpServerPorts(new int[]{port, port + 1, port + 2});
+                MainActivity.mOobeeClient.setHttpServerPorts(new int[]{port});
                 MainActivity.mOobeeClient.init();
                 Log.d(TAG,"Initializing Oobee...");
                 showProgressDialog("Initializing Oobee...");
